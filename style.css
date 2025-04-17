@@ -1,0 +1,146 @@
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+    /* Bootstrap's warning yellow */
+}
+
+.carousel-item img {
+    height: 85vh;
+    /* 50% of the viewport height */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+}
+
+.carousel-caption .btn-custom {
+    margin-top: 1rem;
+}
+
+.service-item {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.service-item:hover {
+    border-bottom: 3px solid #e0b800;
+}
+
+.partner-icon {
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.partner-icon:hover {
+    color: #FFD43B;
+    transform: scale(1.2);
+}
+
+.partner-box {
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.partner-box:hover {
+    transform: translateY(-5px);
+}
+
+.input-group {
+    background-color: #333;
+    /* Input group background */
+    border-radius: 5px;
+}
+
+.form-control {
+    background-color: #333;
+    border: none;
+    color: #ccc;
+
+}
+
+.form-control::placeholder {
+    color: #777;
+
+}
+
+.input-group-text {
+    background-color: #333;
+    border: none;
+}
+
+.send-icon {
+    color: #aaa;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.send-icon:hover {
+    color: yellow;
+}
+
+.footer-nav {
+    color: #777;
+    transition: transform 0.3s ease;
+}
+
+.footer-nav:hover {
+    color: yellow;
+}
+
+/* Image background on 8 card */
+
+.hover-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.hover-card:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.hover-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+}
+
+.hover-card:hover .hover-content {
+    opacity: 1;
+}
+
+.hover-content h5 {
+    font-weight: bold;
+}
+
+.hover-content p {
+    font-size: 0.9rem;
+}
+
+.hover-content a {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hover-content a:hover {
+    text-decoration: underline;
+}
